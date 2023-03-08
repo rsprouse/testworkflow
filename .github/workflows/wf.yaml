@@ -1,0 +1,29 @@
+# This action builds the PhonWork website and copies the files to the
+# site-dev or site-prod branch.
+
+name: Build phonwork website and deploy to a site-* branch
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: Branch to which generated site will be pushed
+        type: choice
+        required: true
+        options:
+        - site-dev
+        - site-prod
+
+env:
+  REPO: "https://${{GITHUB_ACTOR}}:${{secrets.GITHUB_TOKEN}}@github.com/${{GITHUB_REPOSITORY}}.git"
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+ 
+    steps:
+      - name:  build_site
+        run: |
+          echo "repo $REPO"
+#          echo "github actor ${{ github.actor }}"
+#          echo "target branch ${{ inputs.target_branch }}"
