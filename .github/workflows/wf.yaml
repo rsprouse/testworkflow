@@ -15,7 +15,7 @@ on:
         - site-prod
 
 env:
-  REPO: "https://${{GITHUB_ACTOR}}:${{secrets.GITHUB_TOKEN}}@github.com/${{GITHUB_REPOSITORY}}.git"
+  REPO: "https://${{ github.actor }}:${{secrets.GITHUB_TOKEN}}@github.com/${{ github.repository }}.git"
 
 jobs:
   build:
