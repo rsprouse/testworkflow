@@ -4,6 +4,7 @@ A GitHub Action can be used to build the site on GitHub and push the result
 to a specific branch. When the Action completes you can pull the branch to
 your server.
 
+1. Log in to GitHub.
 1. Visit the [Actions](actions) tab.
 1. Select the `Build phonwork website and deploy to a site-* branch` workflow.
 1. Click on the `Run workflow` button.
