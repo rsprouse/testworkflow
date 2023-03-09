@@ -28,5 +28,5 @@ git clone -b site-dev https://github.com/PhonWork/phonwork site-dev  # Developme
 git clone -b site-prod https://github.com/PhonWork/phonwork site-prod  # Production site
 ```
 
-Then your web server must be configured to use the cloned `site-dev` and
-`site-prod` directories.
+Then configure your web server to use the cloned `site-dev` and
+`site-prod` directories. **It is also recommended to disallow access to the `.git` subdirectories in your server configuration.**
