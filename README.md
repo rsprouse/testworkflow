@@ -10,7 +10,7 @@ your server.
 6. Choose the branch you would like to push to, either `site-dev` (development version) or `site-prod` (production).
 7. Click 'Run workflow`.
 
-When the workflow completes successfully you pull the branch to your server:
+When the workflow completes successfully pull the branch to your server:
 
 1. Log in to your server.
 1. Navigate to the directory where the repository branch has been cloned (`site-dev` or `site-prod`).
