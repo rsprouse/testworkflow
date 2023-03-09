@@ -35,7 +35,6 @@ jobs:
         with:
           submodules: ${{ inputs.submodules }}
  
-    steps:
       - name:  build_site
         run: |
           echo "repo $REPO"
