@@ -5,11 +5,10 @@ to a specific branch. When the Action completes you can pull the branch to
 your server.
 
 1. Log in to GitHub.
-1. Visit the [Actions](actions) tab.
-1. Select the `Build phonwork website and deploy to a site-* branch` workflow.
-1. Click on the `Run workflow` button.
-1. Choose the branch you would like to push to, either `site-dev` or `site-prod`.
-1. Click 'Run workflow`.
+2. Find the [`Build phonwork website and deploy to a site-* branch` workflow](https://github.com/PhonWork/phonwork/actions/workflows/publish.yaml) under the Actions tab.
+5. Click on the `Run workflow` button.
+6. Choose the branch you would like to push to, either `site-dev` or `site-prod`.
+7. Click 'Run workflow`.
 
 When the workflow completes successfully you pull the branch to your server:
 
