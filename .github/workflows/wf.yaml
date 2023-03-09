@@ -40,3 +40,4 @@ jobs:
           echo "repo $REPO"
           echo "github actor ${GITHUB_ACTOR}"
           echo "target branch ${{ inputs.target_branch }}"
+          echo "submodules ${{ inputs.submodules }}"
