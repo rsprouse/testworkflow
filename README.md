@@ -1,8 +1,9 @@
 ## Code snippet
 
 <code>
-<script src="assets/js/ex/exercises.js">
-    <script src="assets/js/ex/vocal_tract_tour.js">
+    
+    <script src="assets/js/ex/exercises.js" />
+    <script src="assets/js/ex/vocal_tract_tour.js" />
 
     <body onload="initialize()">
 
