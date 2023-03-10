@@ -48,3 +48,19 @@ The following was also run through a syntax checker and errors were corrected.
 </body>
 </html>
 ```
+
+
+## Replace js block
+
+```javascript
+ // must assume the existence of some variables (defined in exercises.js)
+
+exerciseName = "Vocal tract tour";
+mincorrect=12;
+minrun=3;
+
+quest[0]="1"; answer[0]="upper lip|lip";
+quest[1]="2"; answer[1]="upper incisors|upper front teeth|teeth";
+quest[2]="3"; answer[2]="alveolar ridge";
+quest[3]="4"; answer[3]="hard palate";
+quest[4]="5"; answer[4]="soft palate|velum";```
