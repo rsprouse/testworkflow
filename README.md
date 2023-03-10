@@ -1,4 +1,4 @@
-## Code snippet
+## Replace html block
 
 ### Style 1: Make into a code block
 
