@@ -40,4 +40,10 @@ jobs:
           echo "repo $REPO"
           echo "github actor ${GITHUB_ACTOR}"
           echo "target branch ${{ inputs.target_branch }}"
+          if [ ${{ inputs.submodules }} = 'true' ]
+          then
+            echo 'submodules is true'
+          else
+            echo 'submodules is not true'
+          fi
           echo "submodules ${{ inputs.submodules }}"
