@@ -52,7 +52,7 @@ The following was also run through a syntax checker and errors were corrected.
 
 ## Replace js block
 
-```js
+```javascript
  // must assume the existence of some variables (defined in exercises.js)
 
 exerciseName = "Vocal tract tour";
